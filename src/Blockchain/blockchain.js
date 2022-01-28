@@ -4,6 +4,7 @@ const ec = new EC('secp256k1');
 
 class Transaction{
     constructor(fromAddress, toAddress, amount){
+        
         this.fromAddress = fromAddress;
         this.toAddress = toAddress;
         this.amount = amount;
